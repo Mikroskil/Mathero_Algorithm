@@ -1,0 +1,214 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Jago Bikin Aplikasi Smartphone
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section 
+        h1 MathHero 
+           h3 Nama Kelompok
+            ul 
+               li
+               li Muhammad Tri Sumitro
+               li Danu Rahanda
+               li Kelana Mala Wali.Panjaitan
+
+
+
+      section
+        h2 Jago Bikin Aplikasi Smartphone
+        h3  Sumber:Sir Mirza Ilhami </a>
+
+
+      section
+        h2 Pengenalan Frame Ironic
+          
+      section   
+       p Frame Ionic merupakan framework HTML5 yang masih baru,diirilis tahun 2014. Framework ini membantu Anda dalam mengembangkan aplikasi mobile dengan teknologi web seperti HTML, CSS dan Javascript.Framework Ionic adalah sekumpulan teknologi yang dikembangkan untuk membangun aplikasi mobile hybrid yang powerful, cepat, mudah dan juga memiliki tampilan yang menarik.Ionic menggunakan AngularJS sebagai framework berbasis web dan menggunakan Cordova untuk membangun aplikasi mobile. 
+      
+
+      section
+         <img src="images/1.1.jpg" </img>
+     
+
+      ul
+        li
+        h2 Konfigurasi Ionic
+        p 
+         li
+          sebelum sebelum dapat menggunakan Ionic dan emulator, Anda perlu menginstal terlebih dahulu beberapa tool. Ikuti step-by-step dari 
+          bab ini agar lebih mudah Anda pahami. Anda perlu mengunduh beberapa tool dibawah ini terlebih dahulu sebelum dapat diinstal.
+  
+      ul 
+         li 
+            h2 Download dan Install Java
+            li Pastikan Java telah terinstal di komputer Anda. Java dibutuhkan untuk menjalankan Android SDK. Untuk mengeceknya, bisa melalui Command Prompt, ketikkan Java.
+
+            li <img src="images/1.2.jpg" height=300 weight=500</img>
+    
+   
+        li Gambar di atas menunjukkan bahwa telah terinstal Java SDK versi 1.7.0_05. Jika Anda belum memilikinya, silahkan terlebih dahulu download Java SDK terbaru.
+        
+        
+      ul
+        li
+          h2 Download Apache Ant
+          li
+            p Apache Ant dibutuhkan oleh Android dan Cordova. Download Apache Ant1. Jika download telah selesai, selanjutnya ekstrak file download apache-ant-1.9.4-bin.zip di direktori yang Anda inginkan
+
+          li
+            <img src="images/1.3.jpg" weigth=300 height=150 </img>
+          li 
+            P Kemudian tambahkan path ke folder bin/di variabel PATH environment 
+
+      ul 
+        li 
+          h2 Download Android SDK
+          li <img src="images/1.4.jpg" weigth=300 height=150 </img>
+          li Pilih yang sesuai dengan komputer Anda, apakah 32-bit atau 64-bit.
+          li <img src="images/1.5.jpg" weigth=200 height=90 </img>
+      
+      ul
+          li Ekstrak hasil download tersebut. File tersebut terdiri dari 2 (dua) folder, yaitu aplikasi Eclipse dan SDK. Folder Eclipse berisi aplikasi Eclipse yang dapat juga Anda gunakan untuk membuat aplikasi Android, namun disini Anda tidak diajarkan membuat aplikasi melalui Eclipse, melainkan menggunakan Command Prompt saja
+          li Folder kedua yaitu SDK, folder ini cukup penting dan akan digunakan nantinya. Android SDK berisi librari dan emulator yang akan digunakan oleh aplikasi mobile yang dibuat nanti.
+      ul
+          li
+          h2 Mengatur PATH Environment
+          li Anda perlu mengatur PATH terlebih dahulu sebelum dapat menggunakan Android SDK bersamaan Ionic. Caranya cukup mudah, silahkan copy alamat direktori dari folder bin kePATH environment variabel.
+          li Jalankan Environment Variables melalui menu Start  Ketikkan “Environment Variables”. Akan muncul jendela seperti di bawah:http://developer.android.com/sdk/index.html 2  http://developer.android.com/sdk/index.html
+
+      ul
+          li <img src="images/1.6.jpg" weigth=500 height=320 </img>
+          li Kemudian dari bagian System Variables (bagian bawah), klik 2x (dua kali) di bagian PATH. Terus ikuti bab ini hingga langkah terakhir
+      ul 
+        li
+         h2 PATH dari Apache Ant
+         li Dari Apache Ant yang sebelumnya telah Anda ekstrak, cari folder “bin” dan copy lokasi folder “bin” ke PATH, seperti berikut:
+         li <img src="images/1.7.jpg" weigth=300 height=120 </img>
+
+      ul 
+        li
+        h2 PATH dari Android SDK
+        li Begitu juga dengan Android SDK yang sebelumnya sudah Anda ekstrak, buka kembali folder sdk tersebut dan copy lokasi folder “platform-tools” dan “tools” ke PATH, seperti berikut:
+        li <img src="images/1.8.jpg" weigth=300 height=120 </img>
+        li Gambar di atas adalah menambahkan “platform-tools” ke PATH. Kemudian, tambahkan juga folder “tools” ke PATH seperti berikut ini:
+        li  <img src="images/1.9.jpg" weigth=300 height=120 </img>
+
+      ul
+        li
+        h2 Install Node.js
+        li Node.js adalah salah satu tool populer untuk membangun utilisasi command line. Cordova dan Ionic menggunakannya. Anda dapat mengunduhnya melalui  http://www.nodejs.org. Download sesuai dengan kebutuhan komputer Anda, apakah 32-bit atau 64-bit
+
+      ul
+        li  <img src="images/2.0.jpg" weigth=500 height=320 </img>
+        li Setelah proses download selesai, berikutnya silahkan ikuti proses instalasi node.js hingga finish.
+      ul
+        li <img src="images/2.1.jpg" weigth=500 height=320 </img>
+        li Ikuti langkah-langkahnya hingga proses akhir selesai. Untuk node.js, Anda tidak perlu mengatur PATH environment.
+      ul
+        h2 Instalasi Cordova dan Ionic
+        li Setelah semua tool di atas selesai diinstal, tahapan akhir adalah melakukan instalasi Cordova dan Ionic. Buka Command Prompt dan ketikkan perintah berikut:
+        li $npm install –g cordova ionic
+      ul 
+        h2 Install Genymotion
+        li Seperti yang telah dijelaskan sebelumnya di atas, bahwa aplikasi hasil dari Cordova dan Ionic ini dapat Anda jalankan pada emulator. Anda boleh menggunakan emulator apa saja sesuai dengan kebutuhan.
+      ul
+        li
+        h2 Install Google USB Driver
+        li Selain menggunakan emulator, Anda dapat pula menggunakan perangkat Android langsung untuk men-debug aplikasi Anda. Yang Anda butuhkan adalah kabel data dan Google USB Driver yang dapat Anda download melalui SDK Manager, seperti berikut ini:
+        li <img src="images/2.2.jpg" weigth=440 height=220 </img>
+      ul
+         h2 Memulai Aplikasi
+         li <img src="images/2.3.jpg" weigth=500 height=320 </img>
+      ul 
+        li
+        h2 Memulai Projek (starting)  
+        li Misalnya Anda ingin membuat aplikasi baru di folder “tutorial”. Mulailah dengan mengarahkan ke direktori tutorial:
+        li cd tutorial
+        li <img src="images/2.4.jpg" weigth=300 height=120 </img>
+      ul
+        li ionic start demo1 tabs
+        li <img src="images/2.4.jpg" weigth=300 height=120 </img>
+        li <img src="images/2.6.jpg" weigth=400 height=220 </img>
+      ul 
+        h2 Konfigurasi Platform (configuration) 
+        li Masih menggunakan Command Prompt, Anda perlu terlebih dahulu menambahkan platform terhadap aplikasi “demo1” yang baru saja Anda buat. Pertama masuk ke folder aplikasi yang dibuat tadi, menggunakan perintah cd nama_aplikasi
+        li cd demo1
+        li Kemudian, misalnya aplikasi ini nantinya akan digunakan pada sistem operasi Android, maka tambahkan platform Android ke aplikasi “demo1”. Caranya seperti berikut:
+        li ionic platform add android
+
+      ul
+        li <img src="images/2.7.jpg" weigth=300 height=120 </img>
+        li Hasil dari perintah di atas adalah bertambahnya sebuah folder baru di aplikasi “demo1”,
+        li yaitu folder “platforms”, seperti gambar berikut:
+        li <img src="images/2.8.jpg" weigth=300 height=150 </img>
+      ul
+        h2 Membangun Aplikasi (build) 
+        li Tahapan berikutnya adalah melakukan kompilasi (compile) terhadap aplikasi yang baru saja kita buat, yaitu dengan perintah berikut:
+        li ionic build android
+        li <img src="images/3.0.jpg" weigth=300 height=120 </img>
+      ul
+        h2 Ujicoba Aplikasi
+        li Ini merupakan tahapan dimana Anda menguji aplikasi yang sebelumnya telah dibuat. Ionic menyediakan 4 (empat) cara untuk mengujicoba aplikasi Anda, diantaranya adalah Ujicoba di Browser Desktop, Ujicoba di Emulator (Genymotion, Bluestacks, dll), Ujicoba di Android serta Ujicoba di Mobile Browser.
+      ul 
+        h2 Ujicoba di Browser
+        li Untuk dapat melihat hasil dari aplikasi yang telah kita bangun, silahkan menggunakan perintah berikut:
+        li ionic serve
+        li <img src="images/3.1.jpg" weigth=300 height=120 </img>
+      ul 
+        li <img src="images/3.2.jpg" weigth=500 height=320 </img>
+      ul
+        h2 Ujicoba di Android ASUS ZenFone 5 
+        li Sebelumnya, Anda perlu menginstal Google USB Driver. Google USB Driver ini dibutuhkan agar Anda dapat menjalankan aplikasi di Android melalui kabel data yang terhubung antara perangkat Android dengan laptop/PC/komputer. Nah, pastikan Google USB Driver Anda telah terinstal dengan baik, seperti berikut
+      ul
+        li <img src="images/3.3.jpg" weigth=400 height=220 </img>
+        li Gambar di atas menunjukkan Google USB Driver yang telah terinstal. Jika punya Anda belum terinstal, caranya cukup mudah, silahkan centang Google USB Driver, kemudian klik tombol “Install packages..” di sebelah kanan dan ikuti petunjuk berikutnya.
+
+        li Setelah Google USB Driver terinstal dengan baik, maka koneksikan kabel antara laptop/PC/komputer dengan perangkat Android. Kemudian, tunggu hingga proses deteksi driver selesai. Jika sudah ready, maka silahkan ketikkan perintah berikut:
+        li ionic run android
+
+      ul
+        li <img src="images/3.5.jpg" weigth=300 height=120 </img>
+        li Sama seperti ujicoba di emulator, perintah di atas juga digunakan untuk menguji di perangkat Android. Jika emulator Anda sedang aktif dan kabel juga sedang terkoneksi dengan perangkat Android, maka komputer akan memilih salah satunya. Berikut ini hasil dari ujicoba pada Android ASUS ZenFone 5:
+      ul
+        li <img src="images/3.6.jpg" weigth=500 height=310 </img>
+        li Gambar di atas adalah hasil dari ujicoba aplikasi “demo1” pada ASUS ZenFone 5. Hasil yang didapatkan adalah sama dengan yang sebelumnya pada browser.
+      ul
+        h2 Sekian Dan Terima Kasih 
+        h3 MathHero Dan Kawan-kawan
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+      
+
+    script(src='build/build.js')
