@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hello World
 > A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
 
@@ -15,3 +16,15 @@ Then, install dependencies and run the preview server:
 $ npm install && bower install
 $ gulp serve
 ```
+=======
+# Mathero_Algorithm 
+
+# Nama Kelompok
+> Anggota Kelompok:
+ 
+ > 1. Muhammad Tri Sumitro
+ > 2. Kelana Malawali Panjaitan 
+> 3. Dana Rahanda                
+ 
+
+>>>>>>> db83c080935bb5c28d7fdf1fcc7265c5d2cc1e7c
