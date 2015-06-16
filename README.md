@@ -24,7 +24,7 @@ $ gulp serve
  
  > 1. Muhammad Tri Sumitro
  > 2. Kelana Malawali Panjaitan 
-> 3. Dana Rahanda                
+> 3. Danu Rahanda                
  
 
 >>>>>>> db83c080935bb5c28d7fdf1fcc7265c5d2cc1e7c
