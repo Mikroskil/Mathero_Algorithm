@@ -1,0 +1,71 @@
+Nama: Muhammad Tri Sumitro
+Nim: 131113352
+Kelas: TP-B Pagi
+
+Jawaban First Task Artificial Intelligence
+1.	Apakah anda setuju atau tidak dengan pendapat turing?
+-	Saya tidak sepenuhnya setuju dengan pendapat turing ini,saya hanya setuju 50% dari 100%
+2.	Apalah menurut anda, akan ada komputer yang bisa melewati tes turing suatu saat?
+-	Menurut saya komputer/mesin hanya mampu melewatinya 50-60% untuk meniru prilaku manusia jadi komputer tidak dapat melewati kemampuan manusia lebih dari 100%,komputer diciptakan hanya untuk membantu kehidupan manusia bukan mengantikan peran manusia, komputer menjadi cerdas karena debuat oleh manusia,itulah sebabnya manusia lebih cerdas dari pada komputer/robot 
+3.	Halangan apa saja yang menurut anda menghambat perkembangan komputer untuk melewati tes turing?
+-	Komputer / robot tidak memiliki emosi,pergerakan atau prilaku robot yang terlalu monotone
+
+
+4.	Jelaskan istilah pada bidang AI serta berikan beberapa contoh implementasi untuk msing-masing sub bidang tersebut 
+
+-Pengolahan Bahasa Alami: adalah salah satu bidang ilmu komputer, kecerdasan buatan, dan bahasa (linguistik) yang berkaitan dengan interaksi antara komputer dan bahasa alami manusia, seperti bahasa Indonesia atau bahasa Inggris. Tujuan utama dari studi NLP adalah membuat mesin yang mampu mengerti dan memahami makna bahasa manusia lalu memberikan respon yang sesuai.. 
+Contoh:
+Part-of-speech tagging. Sangatlah sulit untuk menandai istilah-istilah dalam suatu teks yang terkait dengan bagian tertentu dari suatu naskah (misalnya kata benda, kata kerja, kata sifat, kata keterangan, dst), karena bagian dari naskah tidak hanya bergantung pada definisi istilah tetapi juga pada konteks dimana teks digunakan.
+Text segmentation. Beberapa bahasa tulisan, seperti bahasa mandarin, jepang, dan thai, tidak memiliki batasan kata. Dalam contoh ini, tugas text-parsing memerlukan idetifikasi terhadap batasan kata, yang seringkali merupakan tugas yang sangat sulit. Tantangan serupa dalam segmentasi naskah muncul ketika menganalisa bahasa verbal, karena suara menyajikan rangkaian huruf dan kata yang bercampur satu sama lain.
+Word sense disambiguation.  Banyak kata yang memiliki lebih dari satu arti. Memilih arti yang paling masuk akan hanya bisa dicapai dengan mempertimbangkan konteks di mana kata digunakan.
+Syntactic ambiguity.  Tata bahasa dalam bahasa alami seringkali ambigu; artinya, ada berbagai struktur kalimat yang memungkinakan yang perlu dipertimbangkan. Memilih struktur yang paling tepat biasanya memerlukan paduan informasi kontektual dan semantik.
+
+
+
+-Knowledge  representation : suatu proses untuk menangkap sifat-sifat penting problema dan membuat informasi tersebut dapat diakses oleh prosedur pemecahan masalah.
+Contoh implementasi:
+1.	Object – atribut – value (OAV) triplet
+2. Rules
+3. Semantic Network
+4. Frame
+
+-	Automated Reasoning  : seni dan ilmu untuk mendapatkan komputer untuk menerapkan penalaran logis untuk
+memecahkan masalah, misalnya, untuk membuktikan teorema, memecahkan teka-teki, sirkuit desain, verifikasi atau mensintesis
+program komputer 
+-	Contoh implementasi:
+Alat dan teknik Automated Reasoning  mencakup logika klasik dan bate, logika fuzzy , inferensi Bayesian , penalaran dengan entropi maksimal dan sejumlah besar teknik yang kurang formal ad hoc.
+-	Machine Learning : ilmu cabang dari kecerdasan buatan yang mempelajari bagaimana caranya belajar dari data. Istilah Machine Learning sendiri cukup membingungkan atau misleading karena hampir tidak berhubungan dengan mesin apapun (kecuali diimplementasikan di robot). Mesin disini merujuk kepada algoritma atau program yang berjalan di komputer
+Contoh implementasi:
+1.  Bidang kedokteran: bagaimana mendeteksi penyakit seseorang dari gejala-gejala yang ada, atau deteksi apakah seseorang mengidap penyakit jantung dari rekaman elektrokardiogram, dan mencari tahu gen yang terlibat pada penyakit kanker.
+2. Bidang computer vision: menemukan dan memberi label muka orang pada foto (seperti di facebook) atau face recognition, pengenalan tulisan tangan menjadi teks pada komputer atau handwriting recognition.
+3. Bidang teks atau information retrieval: menerjemahkan bahasa menggunakan mesin atau machine translation, mengubah suara menjadi teks atau speech recognition, atau memisahkan email antara yang spam dan yang non-spam.
+
+-	Computer Vision : merupakan proses otomatis yang mengintegrasikan sejumlah besar proses untuk persepsi visual, seperti akuisisi citra, pengolahan citra, pengenalan dan membuat keputusan. Computer vision mencoba meniru cara kerja sistem visual manusia (human vision) yang sesungguhnya sangat kompleks. Untuk itu, computer vision diharapkan memiliki kemmpuan tingkat tinggi 
+Contoh Implementasi:
+1.   Bidang Neurobiologi.
+
+Contohnya adalah sistem biological vision. Selama abad terakhir, telah terjadi studi ekstensif dari mata, neuron, dan struktur otak dikhususkan untuk pengolahan rangsangan visual pada manusia dan berbagai hewan. Hal ini menimbulkan gambaran kasar, namun rumit, tentang bagaimana “sebenarnya” sistem visi beroperasi dalam menyelesaikan tugas -tugas visi tertentu yang terkait. Hasil ini telah menyebabkan subfield di dalam visi komputer di mana sistem buatan yang dirancang untuk meniru pengolahan dan perilaku sistem biologi, pada berbagai tingkat.
+
+2.      Bidang Pemrosesan Sinyal.
+Banyak metode untuk pemrosesan sinyal satu-variabel, biasanya sinyal temporal,dapat diperpanjang dengan cara alami untuk pengolahan sinyal dua variabel atau sinyalmulti-variabel dalam visi komputer. Namun, karena sifat spesifik gambar ada banyak metode dikembangkan dalam visi komputer yang tidak memiliki mitra dalam pengolahan sinyal satu-variabel. Sebuah karakter yang berbeda dari metode ini adalah kenyataan bahwa mereka adalah non-linear yang bersama-sama dengan dimensi-multi sinyal, mendefinisikan sub field dalam pemrosesan sinyal sebagai bagian dari visi komputer.
+
+3.      Bidang Fisika
+Fisika merupakan bidang lain yang terkait erat dengan Computer Vision. sistem Computer vision bergantung pada sensor gambar yang mendeteksi radiasi elektromagnetik yangbiasanya dalam bentuk baik cahaya tampak atau infra-merah sensor dirancang denganmengunakan fisika solid-state. Proses di mana cahaya merambat dan mencerminkan off permukaan dijelaskan menggunakan optik. sensor gambar canggih bahkan meminta mekanika kuantum untuk memberikan pemahaman lengkap dari proses pembentukangambar. Selain itu, berbagai masalah pegukuran fisika dapat di atasi dengan menggunakanComputer Vision, untuk gerakan misalnya dalam cairan.
+
+4.       Bidang matematika murni
+Sebagai contoh, banyak metode dalam visi komputer didasarkan pada statistik, optimasi atau geometri. Akhirnya, bagian penting dari lapangan dikhususkan untuk aspek pelaksanaan visi komputer, bagaimana metode yang ada dapat diwujudkan dalam berbagai kombinasiperangkat lunak dan perangkat keras, atau bagaimana metode ini dapat dimodifikasi untuk mendapatkan kecepatan pemrosesan tanpa kehilangan terlalu banyak kinerja 
+
+
+
+-	Robotika adalah sebuah alat mekanik yang dapat melakukan tugas fisik, baik menggunakan pengawasan dan kontrol manusia, ataupun menggunakan program yang telah didefinisikan terlebih dulu (kecerdasan buatan). Istilah robot berawal bahasa Cheko “robota” yang berarti pekerja atau kuli yang tidak mengenal lelah atau bosan bidang lainnya.
+Contoh implementasi:
+Robot King Robota
+Robot Honda ASIMO
+Robot Robot Titan
+
+
+
+
+
+
+
